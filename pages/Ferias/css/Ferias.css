@@ -1,93 +1,122 @@
-.contentForm{
-  
-  
-  
-  padding-bottom: 75px;
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: center;
-
-  gap: 1rem;
-
-  width: calc(100vw - 2rem);
-  
-}
-
-.input-field {
-  background: #F7F7F9;
-  border-radius: 14px;
-
-  width: 305px;
-  height: 56px;
-
-  padding-left: 1rem;
-}
-
-.divInput{
-  display: flex;
-  flex-direction: column;
-}
-
-.inputFerias{
-  background: #F7F7F9;
-  border-radius: 14px;
-
-  width: 90%;
-  height: 56px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-
+.activeItem path{
+    fill: #2D1CC6 !important;
+    stroke: #2D1CC6 !important;
 }
 
 
-.inputFerias h1{
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 14px;
-  color: #868696;
-}
-
-input::placeholder {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 14px;
-  color: #868696;
-  padding-left: 0.4rem;
-}
-
-.btn {
-  display: block;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  width: 335px;
-  height: 56px;
-  background: #2D1CC6;
-  border-radius: 16px;
-  color: #fff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-}
-
-h2 {
-  text-align: center;
-  align-items: center;
-  color: #2D1CC6;
-}
-
-/* Estilos para tornar o formulário responsivo em telas menores */
-@media screen and (max-width: 480px) {
-  .form {
-    padding: 10px;
+.card {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-bottom: 77px;
   }
+
+  .image {
+    width: 95%;
+    height: auto;
+  }
+
+  h1 {
+      text-align: center;
+      font-size: 27px;
+  }
+
+  .containerAno {
+      height: 145px;
+      border-radius: 17px;
+      background-color: #2D1CC6;
+      margin: 30px 22px 13px 22px;
+      color: #fff;
+  }
+
+  h2 {
+      font-size: 70px;
+      margin-left: 55px;
+      margin-top:35px;
+      margin-right: 55px;
+      font-weight: 300;
+  }
+
+  h3 {
+      font-size: 22px;
+      font-weight: 300;
+  }
+
+  .contentAno {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .ano {
+      margin-top: 38px;
+      margin-left: -50px;
+  }
+
+  h4 {
+      font-weight: 400;
+      font-size: 12px;
+      margin-top:-20px
+  }
+
+  h5 {
+      font-size: 85px;
+      font-weight: 400;
+      margin-top: 0px;
+      color: #2D1CC6;
+      letter-spacing: -4px;
+  }
+
+  .containerDias {
+    display: flex;
+    flex-flow: row;
+    height: 150px;
+    margin-left: 82px;
+  }
+
+  .contentDias {
+      margin-left: 8px;
+      margin-top: 2px;
+      color: #2D1CC6;
+  }
+
+  .desc {
+    text-align: center;
+    margin: -59px 50px 0px 50px;
+    font-size: 15px;
+    color: #2D1CC6;
 }
+
+.extra{
+    margin-top: 22px;
+    height: 94px;
+    text-align: center;
+    font-weight: 200;
+    display: grid;
+    font-size: 14px;
+  }
+
+
+  .buttonSolicitar {
+      background-color: #2d1cc6;
+      color: #fff;
+      border:none;
+      border-radius:17px;
+      height: 54px;
+      width: 230px;
+      font-size: 15px;
+      font-weight: 100;
+  }
+
+  .divButton {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 31px;
+  }
+
+  .historicoFerias {
+      font-size: 14px;
+      margin-top: 14px;
+      text-decoration: underline;
+      color: #2D1CC6;
+  }

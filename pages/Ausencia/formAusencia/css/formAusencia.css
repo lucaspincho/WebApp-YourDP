@@ -14,8 +14,6 @@
   width: calc(100vw - 2rem);
 }
 
-#file {}
-
 input[type=file]::-webkit-file-upload-button {
   background: #F7F7F9;
   border-radius: 14px;
@@ -53,9 +51,6 @@ input[type=file]::-webkit-file-upload-button {
 .inputDateFerias {
   width: calc(100vw - 8rem);
 }
-
-
-
 
 
 .btn {

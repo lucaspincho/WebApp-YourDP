@@ -1,0 +1,55 @@
+h2 {
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    left: 27px;
+    top: 184px;
+
+    font-family: 'Be Vietnam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.btn-faltas {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.imagem {
+    margin-top: 20px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    width: 335px;
+    height: 56px;
+    background: #2D1CC6;
+    border-radius: 16px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 21px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+}
